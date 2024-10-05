@@ -11,7 +11,7 @@
     "test": "vitest watch",
     "coverage": "vitest run --coverage",
     "lint:fix": "eslint src --fix",
-    "prepare": "npx lint-staged"
+    "prepare": "husky install"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -42,7 +42,7 @@
     "vitest": "^2.1.1"
   },
   "lint-staged": {
-    "*.{js, jsx, ts, tsx}": [
+    "*.{js,jsx,ts,tsx}": [
       "prettier --write",
       "eslint --fix"
     ]
