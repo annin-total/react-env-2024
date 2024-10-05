@@ -1,3 +1,4 @@
+import React from "react";
 import { test } from "vitest";
 import userEvent from "@testing-library/user-event";
 import TextInput from "./TextInput";
